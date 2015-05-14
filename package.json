@@ -1,0 +1,14 @@
+{
+  "name": "autodisablerjs",
+  "version": "0.1.0",
+  "description": "An implementation of the circuitbreaker pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "John Nelson",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
