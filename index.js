@@ -154,7 +154,7 @@ DisablerScope.prototype.createShim = function (key, callback) {
     };
   }
 
-  return function (err) {
+  return function callbackShim(err) {
     var newArguments = convertToArray(arguments);
     if (err) {
       self.tally(key, false);
